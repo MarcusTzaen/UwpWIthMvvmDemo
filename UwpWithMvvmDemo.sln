@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UwpWithMvvmDemo", "UwpWithM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UwpWithMvvmDemo.Models", "UwpWithMvvmDemo.Models\UwpWithMvvmDemo.Models.csproj", "{C2313698-2A1B-4BD7-9071-A2A1C46774B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UwpWithMvvmDemo.ViewModels", "UwpWithMvvmDemo.WebModels\UwpWithMvvmDemo.ViewModels.csproj", "{E9E7EA95-8B33-409B-B6E6-7394E597CFEA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UwpWithMvvmDemo.ViewModels", "UwpWithMvvmDemo.ViewModels\UwpWithMvvmDemo.ViewModels.csproj", "{E9E7EA95-8B33-409B-B6E6-7394E597CFEA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UwpWithMvvmDemo.Common", "UwpWithMvvmDemo.Common\UwpWithMvvmDemo.Common.csproj", "{E5DC4E9B-04BA-45ED-8577-C5E39CD38B9F}"
 EndProject

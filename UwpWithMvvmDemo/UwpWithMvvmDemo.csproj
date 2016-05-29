@@ -146,7 +146,7 @@
       <Project>{c2313698-2a1b-4bd7-9071-a2a1c46774b9}</Project>
       <Name>UwpWithMvvmDemo.Models</Name>
     </ProjectReference>
-    <ProjectReference Include="..\UwpWIthMvvmDemo.WebModels\UwpWithMvvmDemo.ViewModels.csproj">
+    <ProjectReference Include="..\UwpWithMvvmDemo.ViewModels\UwpWithMvvmDemo.ViewModels.csproj">
       <Project>{e9e7ea95-8b33-409b-b6e6-7394e597cfea}</Project>
       <Name>UwpWithMvvmDemo.ViewModels</Name>
     </ProjectReference>
