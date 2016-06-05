@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UwpWithMvvmDemo", "UwpWithMvvmDemo\UwpWithMvvmDemo.csproj", "{23148C14-A9F2-4B0E-ADD7-A3FCCB549032}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UwpWithMvvmDemo", "src\UwpWithMvvmDemo\UwpWithMvvmDemo.csproj", "{23148C14-A9F2-4B0E-ADD7-A3FCCB549032}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UwpWithMvvmDemo.Models", "UwpWithMvvmDemo.Models\UwpWithMvvmDemo.Models.csproj", "{C2313698-2A1B-4BD7-9071-A2A1C46774B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UwpWithMvvmDemo.Models", "src\UwpWithMvvmDemo.Models\UwpWithMvvmDemo.Models.csproj", "{C2313698-2A1B-4BD7-9071-A2A1C46774B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UwpWithMvvmDemo.ViewModels", "UwpWithMvvmDemo.ViewModels\UwpWithMvvmDemo.ViewModels.csproj", "{E9E7EA95-8B33-409B-B6E6-7394E597CFEA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UwpWithMvvmDemo.ViewModels", "src\UwpWithMvvmDemo.ViewModels\UwpWithMvvmDemo.ViewModels.csproj", "{E9E7EA95-8B33-409B-B6E6-7394E597CFEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UwpWithMvvmDemo.Common", "UwpWithMvvmDemo.Common\UwpWithMvvmDemo.Common.csproj", "{E5DC4E9B-04BA-45ED-8577-C5E39CD38B9F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UwpWithMvvmDemo.Common", "src\UwpWithMvvmDemo.Common\UwpWithMvvmDemo.Common.csproj", "{E5DC4E9B-04BA-45ED-8577-C5E39CD38B9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FB63500B-E507-4C55-93C9-B9F453B27F39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -94,5 +96,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{23148C14-A9F2-4B0E-ADD7-A3FCCB549032} = {FB63500B-E507-4C55-93C9-B9F453B27F39}
+		{C2313698-2A1B-4BD7-9071-A2A1C46774B9} = {FB63500B-E507-4C55-93C9-B9F453B27F39}
+		{E9E7EA95-8B33-409B-B6E6-7394E597CFEA} = {FB63500B-E507-4C55-93C9-B9F453B27F39}
+		{E5DC4E9B-04BA-45ED-8577-C5E39CD38B9F} = {FB63500B-E507-4C55-93C9-B9F453B27F39}
 	EndGlobalSection
 EndGlobal
